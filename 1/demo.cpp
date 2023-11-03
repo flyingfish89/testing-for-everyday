@@ -3,7 +3,8 @@
 
 int main()
 {
-	A lala;
-	lala.generateParenthesis(3);
+	B b1;
+	b1.generateParenthesis(2);
+
 	return 0;
 }

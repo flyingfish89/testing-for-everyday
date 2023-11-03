@@ -1,11 +1,6 @@
 #include <stack>
 #include "test.hpp"
 
-int A::getadd(int a, int b)
-{
-	return a + b;
-}
-
 static bool getstringok(string s)
 {
 	stack<char> st;
@@ -45,7 +40,7 @@ static void addstring(vector<string> &vs, string &s, char c, int n)
 	}
 	s.pop_back();
 }
-vector<string> A::generateParenthesis(int n)
+vector<string> B::generateParenthesis(int n)
 {
 	vector<string> vs;
 	string s;
@@ -55,4 +50,8 @@ vector<string> A::generateParenthesis(int n)
 		cout << vs.at(i) << endl;
 	}
 	return vs;
+}
+int B::getadd(int a, int b)
+{
+	return a + b;
 }

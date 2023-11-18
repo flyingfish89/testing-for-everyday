@@ -28,7 +28,7 @@ namespace myspace
 
 		//add in 1
 		//virtual int function(int a, int b) = 0;
-		//virtual type1 function1(type2 n) = 0;
+		virtual type1 function1(type2 n) = 0;
 		//add in 2
 		//virtual type1 function2(type1 s, type2 power, type2 modulo, type2 k, type2 hashValue) = 0;
 		//add in 3
@@ -43,8 +43,6 @@ namespace myspace
 		//virtual vector<type1> function7(type1 prev, type1 end) = 0;
 		//add in 12
 		//virtual type1 function8(type1 number) = 0;
-		//add in 14
-		virtual vector<vector<type1>> function9(vector<type1> num1, vector<type1> num2, type1 k) = 0;
 	public:
 		int a;
 		int b;
